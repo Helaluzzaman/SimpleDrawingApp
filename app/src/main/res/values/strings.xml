@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Drawing App</string>
+    <string name="select_white">select white</string>
+    <string name="background_image">background image</string>
+    <string name="save_and_share_button">save and share button</string>
+    <string name="select_marron">select marron</string>
+    <string name="select_yellow">select yellow</string>
+    <string name="select_fuchsia">select fuchsia</string>
+    <string name="select_red">select red</string>
+    <string name="select_aqua">select aqua</string>
+    <string name="select_lime">select lime</string>
+</resources>

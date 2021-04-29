@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/ib_very_small"
+        android:src="@drawable/very_small_size"
+        android:background="@color/white"
+        style="@style/brushSizePicker" />
+    <ImageButton
+        style="@style/brushSizePicker"
+        android:id="@+id/ib_small"
+        android:src="@drawable/small_size"
+        android:background="@color/white"
+        />
+    <ImageButton
+        style="@style/brushSizePicker"
+        android:id="@+id/ib_medium"
+        android:src="@drawable/medium_size"
+        android:background="@color/white"
+        />
+    <ImageButton
+        style="@style/brushSizePicker"
+        android:id="@+id/ib_large"
+        android:src="@drawable/large_size"
+        android:background="@color/white"
+        />
+</LinearLayout>
