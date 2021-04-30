@@ -36,12 +36,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            window.setDecorFitsSystemWindows(false)
-        } else{
-            @Suppress("DEPRECATION")
-            window.decorView.systemUiVisibility  = View.SYSTEM_UI_FLAG_FULLSCREEN
-        }
 
         drawingView = findViewById(R.id.dv_myCanvas)
         ib_undo = findViewById(R.id.ib_undo)
@@ -55,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             showBrushDialog(selectedBrushsize)
         }
         ll_colorPicker = findViewById(R.id.ll_color)
-        b_colorPicker_current = ll_colorPicker[4] as Button
+        b_colorPicker_current = ll_colorPicker[7] as Button
         b_colorPicker_current.isSelected = true
 
         fl_container = findViewById(R.id.fl_canvas_container)

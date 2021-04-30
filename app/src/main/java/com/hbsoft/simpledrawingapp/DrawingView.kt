@@ -21,7 +21,7 @@ class DrawingView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     var mBitmap: Bitmap? = null
     var mCanvas: Canvas? = null
     var mBrushSize: Float = 20f
-    var mColor: Int = Color.RED
+    var mColor: Int = Color.BLACK
     init {
         initialSetting()
     }

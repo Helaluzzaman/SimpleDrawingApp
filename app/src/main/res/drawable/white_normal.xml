@@ -6,4 +6,5 @@
     <stroke android:width="2dp"
         android:color="@color/ring_normal"
         />
+    <solid android:color="@color/white"/>
 </shape>

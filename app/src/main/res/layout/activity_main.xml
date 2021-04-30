@@ -94,43 +94,34 @@
         android:paddingBottom="4dp"
         android:orientation="horizontal">
         <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
+            style="@style/action_button_style"
             android:id="@+id/ib_gallery"
             android:onClick="pickImage"
-            android:src="@drawable/ic_baseline_image_50"
+            android:src="@drawable/outline_collections_black_48"
             android:contentDescription="gallery"
             />
         <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
             android:id="@+id/ib_brush"
-            android:src="@drawable/ic_brush_50"
+            android:src="@drawable/twotone_brush_black_48"
             android:contentDescription="brush"
-            />
+            style="@style/action_button_style" />
         <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
+            style="@style/action_button_style"
             android:id="@+id/ib_undo"
-            android:src="@drawable/ic_undo_50"
-            android:contentDescription="undo button"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/round_undo_black_48"
+            android:contentDescription="@string/undo_button"
             />
         <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            style="@style/action_button_style"
             android:id="@+id/ib_redo"
-            android:layout_marginEnd="16dp"
-            android:src="@drawable/ic_redo_50"
-            android:contentDescription="redo button"
+            android:src="@drawable/round_redo_black_48"
+            android:contentDescription="@string/redo_button"
             />
         <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            style="@style/action_button_style"
             android:id="@+id/ib_save"
-            android:src="@drawable/ic_baseline_share_24"
+            android:src="@drawable/round_send_and_archive_black_48"
             android:contentDescription="@string/save_and_share_button"
             />
     </LinearLayout>
